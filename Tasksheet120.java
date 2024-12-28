@@ -4,12 +4,12 @@ public class Tasksheet120 {
     public static int Sums(int... nums){
         int totalSum = 0;
         for (int num : nums) {
-            int Sums = 0;
+            int sum = 0;
             for (int i =1; i <= num; i ++){
-                Sums += i;
+                sum += i;
             }
-            totalSum += Sums;
-            System.out.println("Cumulative Sum for " + num + " = " + Sums);
+            totalSum += sum;
+            System.out.println("Cumulative Sum for " + num + " = " + sum);
         }
         return totalSum;
     }
